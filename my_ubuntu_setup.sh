@@ -11,9 +11,12 @@
 #install unity tweak tool from software center
 
 sudo apt-get update
-sudo apt-get install nodejs
-sudo ln -s `which nodejs` /usr/local/bin/node
-sudo apt-get install npm
+sudo apt-get install build-essential libssl-dev
+curl https://raw.githubusercontent.com/creationix/nvm/v0.16.1/install.sh | sh
+source ~/.profile
+nvm install 4.2.3
+nvm use 4.2.3
+node -v
 
 sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv EA312927
 echo "deb http://repo.mongodb.org/apt/ubuntu trusty/mongodb-org/3.2 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-3.2.list
