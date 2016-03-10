@@ -31,6 +31,12 @@ sudo npm install -g grunt-cli
 
 sudo npm install -g bower
 
+sudo npm install -g yo 
+
+sudo npm install -g gulp-cli
+
+sudo npm install -g generator-angular-fullstack
+
 sudo apt-get install vim curl python-software-properties
 
 sudo apt-get install default-jre
