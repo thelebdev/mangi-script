@@ -4,6 +4,7 @@ Ubuntu Shell Script to setup Development Environment
 I have created this script to setup development environment after fresh installation of Ubuntu. This will install following development environments and tools for you:
 
 - Node.js
+- NVM
 - NPM
 - MongoDB
 - Forever
