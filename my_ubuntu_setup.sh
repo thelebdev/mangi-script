@@ -14,8 +14,8 @@ sudo apt-get update
 sudo apt-get install build-essential libssl-dev
 curl https://raw.githubusercontent.com/creationix/nvm/v0.16.1/install.sh | sh
 source ~/.profile
-nvm install 4.2.3
-nvm use 4.2.3
+sudo nvm install 4.2.3
+sudo nvm use 4.2.3
 node -v
 
 sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv EA312927
