@@ -58,4 +58,4 @@ sudo apt-get install tlp tlp-rdw smartmontools ethtool
 sudo tlp start
 sudo tlp stat
 
-
+sudo apt-get install erlang
