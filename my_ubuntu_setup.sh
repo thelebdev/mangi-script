@@ -59,3 +59,5 @@ sudo tlp start
 sudo tlp stat
 
 sudo apt-get install erlang
+
+sudo apt-get install xpad
