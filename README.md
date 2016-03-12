@@ -19,6 +19,8 @@ I have created this script to setup development environment after fresh installa
 - zip unzip and rar tools
 - filezilla
 - tlp
+- erlang
+- xpad sticky notes
 
 It would demand yes/no inputs on terminal from user therefore it is not fully automated for now.
 
