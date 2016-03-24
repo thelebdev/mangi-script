@@ -2,13 +2,14 @@
 #Sojharo's Development Machine Setup on Ubuntu
 #Author : Sojharo
 #
-#set software sources to server for united states
-#VLC from software center
-#virtual box from software center
-#PDF Mod from software center
-#shutter from software center
-#kazam from software center
-#install unity tweak tool from software center
+# set software sources to server for united states
+# VLC from software center
+# virtual box from software center
+# PDF Mod from software center
+# shutter from software center
+# kazam from software center
+# install unity tweak tool from software center
+# install rebar: pull from githu (for building erlang applications)
 
 sudo apt-get update
 sudo apt-get install build-essential libssl-dev
