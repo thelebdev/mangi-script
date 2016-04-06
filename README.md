@@ -21,6 +21,8 @@ I have created this script to setup development environment after fresh installa
 - tlp
 - erlang
 - xpad sticky notes
+- cpu checker
+- kvm acceleration
 
 It would demand yes/no inputs on terminal from user therefore it is not fully automated for now.
 
