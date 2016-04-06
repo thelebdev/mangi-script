@@ -9,7 +9,7 @@
 # shutter from software center
 # kazam from software center
 # install unity tweak tool from software center
-# install rebar: pull from githu (for building erlang applications)
+# install rebar: pull from github (for building erlang applications)
 
 sudo apt-get update
 sudo apt-get install build-essential libssl-dev
@@ -62,3 +62,7 @@ sudo tlp stat
 sudo apt-get install erlang
 
 sudo apt-get install xpad
+
+# KVM acceleration and cpu checker
+sudo apt-get install cpu-checker
+sudo apt-get install qemu-kvm libvirt-bin ubuntu-vm-builder bridge-utils
