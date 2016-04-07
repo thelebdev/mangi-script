@@ -67,3 +67,4 @@ sudo apt-get install xpad
 sudo apt-get install cpu-checker
 sudo apt-get install qemu-kvm libvirt-bin ubuntu-vm-builder bridge-utils
 sudo apt-get install virt-manager
+sudo apt-get install lib32z1 lib32ncurses5 lib32bz2-1.0 lib32stdc++6
