@@ -24,6 +24,7 @@ I have created this script to setup development environment after fresh installa
 - cpu checker
 - kvm acceleration
 - Calibre Ebook Reader (I often use it to read programming books :)
+- Dict - Ubuntu Dictionary Database and Client (CLI based)
 
 It would demand yes/no inputs on terminal from user therefore it is not fully automated for now.
 
