@@ -23,6 +23,7 @@ I have created this script to setup development environment after fresh installa
 - xpad sticky notes
 - cpu checker
 - kvm acceleration
+- Calibre Ebook Reader (I often use it to read programming books :)
 
 It would demand yes/no inputs on terminal from user therefore it is not fully automated for now.
 
