@@ -105,3 +105,6 @@ sudo apt-get install dict-gcide
 sudo apt-get install dict-wn
 sudo apt-get install dict-devil
 sudo apt-get install dict-moby-thesaurus
+
+# For Android Studio (Gradle Daemon)
+touch ~/.gradle/gradle.properties && echo "org.gradle.daemon=true" >> ~/.gradle/gradle.properties
