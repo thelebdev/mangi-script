@@ -56,6 +56,7 @@ sudo npm install -g generator-angular-fullstack
 # Vim, Curl, Python - Some random useful stuff
 sudo apt-get install vim curl python-software-properties
 sudo apt-get install python-dev
+sudo apt-get install libkrb5-dev
 
 # Installing JDK and JRE
 sudo apt-get install default-jre
