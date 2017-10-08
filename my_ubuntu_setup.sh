@@ -17,10 +17,10 @@ sudo apt-get update
 sudo apt-get install build-essential libssl-dev
 
 # Nodejs and NVM
-curl https://raw.githubusercontent.com/creationix/nvm/v0.16.1/install.sh | sh
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.2/install.sh | bash
 source ~/.profile
-sudo nvm install 4.2.3
-sudo nvm use 4.2.3
+sudo nvm install node
+sudo nvm use node
 node -v
 
 # Mongodb, Installing and starting server
@@ -55,7 +55,7 @@ sudo npm install -g generator-angular-fullstack
 
 # Vim, Curl, Python - Some random useful stuff
 sudo apt-get install vim curl python-software-properties
-sudo apt-get install python-dev
+sudo apt-get install python-dev, python-pip
 sudo apt-get install libkrb5-dev
 
 # Installing JDK and JRE
@@ -108,4 +108,19 @@ sudo apt-get install dict-devil
 sudo apt-get install dict-moby-thesaurus
 
 # For Android Studio (Gradle Daemon)
-touch ~/.gradle/gradle.properties && echo "org.gradle.daemon=true" >> ~/.gradle/gradle.properties
+#touch ~/.gradle/gradle.properties && echo "org.gradle.daemon=true" >> ~/.gradle/gradle.properties
+
+# Zsh
+sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
+# Docker
+curl -fsSL get.docker.com -o get-docker.sh
+sh get-docker.sh
+# Docker-compose
+sudo pip install docker-compose
+# Atom 
+curl -L https://atom.io/download/deb -o atom-amd64.deb
+sudo dpkg -i atom-amd64.deb
+sudo apt-get -f install
+# Nuclide
+apm install nuclide
