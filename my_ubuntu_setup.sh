@@ -51,7 +51,7 @@ npm install -g yo
 npm install -g gulp-cli
 
 # Ionic and Cordova - hybrid mobile development
-npm install -g gulp-cli
+npm install -g ionic cordova
 
 # Angular FullStack - My favorite MEAN boilerplate (MEAN = MongoDB, Express, Angularjs, Nodejs)
 npm install -g generator-angular-fullstack
