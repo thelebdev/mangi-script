@@ -39,22 +39,22 @@ sudo apt-get update
 sudo apt-get install -y git xclip
 
 # Grunt - an automated task runner
-sudo npm install -g grunt-cli
+npm install -g grunt-cli
 
 # Bower - a dependency manager
-sudo npm install -g bower
+npm install -g bower
 
 # Yeoman - for generators
-sudo npm install -g yo 
+npm install -g yo 
 
 # Gulp - an automated task runner
-sudo npm install -g gulp-cli
+npm install -g gulp-cli
 
 # Ionic and Cordova - hybrid mobile development
-sudo npm install -g gulp-cli
+npm install -g gulp-cli
 
 # Angular FullStack - My favorite MEAN boilerplate (MEAN = MongoDB, Express, Angularjs, Nodejs)
-sudo npm install -g generator-angular-fullstack
+npm install -g generator-angular-fullstack
 
 # Vim, Curl, Python - Some random useful stuff
 sudo apt-get install -y vim curl python-software-properties
