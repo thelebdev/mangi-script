@@ -19,8 +19,8 @@ sudo apt-get install -y build-essential libssl-dev python-software-properties
 # Nodejs and NVM
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.2/install.sh | bash
 source ~/.profile
-sudo nvm install node
-sudo nvm use node
+nvm install node
+nvm use node
 node -v
 
 # Mongodb, Installing and starting server
