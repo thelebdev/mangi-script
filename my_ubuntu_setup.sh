@@ -47,6 +47,10 @@ sudo npm install -g bower
 # Yeoman - for generators
 sudo npm install -g yo 
 
+
+# maven 
+sudo apt-get install maven -y
+
 # Gulp - an automated task runner
 sudo npm install -g gulp-cli
 
