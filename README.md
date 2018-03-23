@@ -43,7 +43,7 @@ Execute the script now:
 
 For any contributions, feel free to make a pull request.
 
-#License
+# License
 
 MIT License
 
