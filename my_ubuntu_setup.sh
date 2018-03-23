@@ -133,6 +133,4 @@ curl -L https://atom.io/download/deb -o atom-amd64.deb
 sudo dpkg -i atom-amd64.deb
 sudo apt-get -f install
 # Nuclide
-apm install nuclide
-
-sudo apt-get upgrade -y
+# apm install nuclide
