@@ -23,6 +23,10 @@ sudo nvm install 7.10.0
 sudo nvm use 7.10.0
 node -v
 
+#nodemon
+sudo npm install -g nodemon
+sudo npm install -g loopback-cli
+
 # Mongodb, Installing and starting server
 sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv EA312927
 echo "deb http://repo.mongodb.org/apt/ubuntu trusty/mongodb-org/3.2 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-3.2.list
@@ -46,6 +50,10 @@ sudo npm install -g bower
 
 # Yeoman - for generators
 sudo npm install -g yo 
+
+
+# maven 
+sudo apt-get install maven -y
 
 # Gulp - an automated task runner
 sudo npm install -g gulp-cli
