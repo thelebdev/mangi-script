@@ -6,12 +6,15 @@ I have created this script to setup development environment after fresh installa
 - Node.js
 - NVM
 - NPM
+- Nodemon
 - MongoDB
 - Forever
 - git
 - grunt
 - bower
 - vim
+- Maven
+- Loopback
 - curl
 - python
 - jre/jdk
