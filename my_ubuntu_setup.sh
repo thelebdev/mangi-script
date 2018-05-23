@@ -12,6 +12,7 @@
 ## kazam from software center
 ## install unity tweak tool from software center
 ## install rebar: pull from github (for building erlang applications)
+## Learn from https://github.com/rafaelstz/simplesh
 
 sudo apt-get update
 
