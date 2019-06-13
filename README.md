@@ -1,12 +1,12 @@
 # mangi-script
-Ubuntu Shell Script to setup Development Environment
+Shell script to setup development environment
 
 # Execution
 
-Download the .sh file in the repository and make it executable
+Download the .sh file and make it executable
 
-`chmod a+x my_ubuntu_setup.sh`
+`chmod +x setup.sh`
 
-Execute the script now:
+Execute the script
 
-`sh my_ubuntu_setup.sh`
+`./setup.sh`
