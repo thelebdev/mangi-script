@@ -33,3 +33,6 @@ sudo tlp start
 sudo tlp stat
 
 echo "alias vpn='sudo openvpn /etc/openvpn/ovpn_tcp/se124.nordvpn.com.tcp.ovpn " >> ~/.bashrc
+
+mkdir ~/.config/autostart
+cp yakuake.desktop ~/.config/autostart/
