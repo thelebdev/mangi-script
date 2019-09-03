@@ -36,3 +36,6 @@ echo "alias vpn='sudo openvpn /etc/openvpn/ovpn_tcp/se124.nordvpn.com.tcp.ovpn "
 
 mkdir ~/.config/autostart
 cp yakuake.desktop ~/.config/autostart/
+sudo add-apt-repository universe
+sudo apt update
+sudo apt install -y exfat-fuse exfat-utils
